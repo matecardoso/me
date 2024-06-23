@@ -1,0 +1,12 @@
+title: "Dev Mateus Cardoso"
+email: dev.mateuscardoso@gmail.com
+description: "Write an awesome description for your new site here."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: matecardoso
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
