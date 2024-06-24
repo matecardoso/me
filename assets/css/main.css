@@ -15,39 +15,39 @@ html, body {
   margin-bottom: 1rem;
 }
 
-.buttons.is-centered .button {
+.buttons.is-right .button {
   margin: 0.5rem;
+  width: 22%;
 }
 
 .language-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .language-buttons img {
-  width: 100px;
-  height: auto;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 0 5px;
+  border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .language-buttons img:hover {
-  border: 2px solid #007BFF;
-  transform: scale(1.05);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .avatar {
-  width: 120px;
+  width: 150px;
   border-radius: 50%;
-}
-
-.button .icon {
-  margin-right: 8px;
 }
 
 .text-box {
@@ -57,6 +57,7 @@ html, body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
   max-width: 800px;
+  position: relative;
 }
 
 .user-name {
@@ -70,4 +71,54 @@ html, body {
 
 .user-stack {
   margin-bottom: 12px !important;
+}
+
+.semibold-text {
+  font-weight: 600;
+}
+
+.button .icon {
+  margin-right: 8px;
+}
+
+.button.is-github-old {
+  background-color: #24292e;
+  color: #fff;
+}
+
+.button.is-github-new {
+  background-color: #0366d6;
+  color: #fff;
+}
+
+.button.is-linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.button.is-resume {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button[title] {
+  position: relative;
+}
+
+.button[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 12px;
 }
