@@ -31,7 +31,7 @@ layout: home
                   <span class="icon"><i class="fab fa-linkedin"></i></span>
                   <span>LinkedIn</span>
                 </a>
-                <a href="https://drive.google.com/file/d/14chz4ll-6NpkwLzMxvFNCI_WreHymid3/view?usp=sharing" class="button is-rounded is-resume" target="_blank">
+                <a href="https://drive.google.com/file/d/1EY428ZNG7YrL_OIR8-w0w0ahYk22NAy4/view?usp=sharing" class="button is-rounded is-resume" target="_blank">
                   <span class="icon"><i class="fas fa-file-alt"></i></span>
                   <span>Currículo</span>
                 </a>
