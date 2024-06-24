@@ -86,7 +86,7 @@ layout: home
                   <span class="icon"><i class="fab fa-linkedin"></i></span>
                   <span>LinkedIn</span>
                 </a>
-                <a href="https://drive.google.com/file/d/10j8L4i6DnfseIQ1WOEIf2AqW1vpBHXN-/view" class="button is-rounded is-resume" target="_blank">
+                <a href="https://drive.google.com/file/d/1Fj2Oa_U3H3qcxlhdfn_v4nqoYrzORs39/view?usp=sharing" class="button is-rounded is-resume" target="_blank">
                   <span class="icon"><i class="fas fa-file-alt"></i></span>
                   <span>Resume</span>
                 </a>
